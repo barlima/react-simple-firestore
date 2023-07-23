@@ -1,0 +1,22 @@
+{
+  "name": "react-simple-firestore",
+  "version": "0.0.1",
+  "description": "Simple configuration for Firestore in React with TypeScript support",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartłomiej Perucki",
+  "license": "MIT",
+  "peerDependencies": {
+    "firebase": "^10.1.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.2",
+    "@types/react": "^18.2.15",
+    "rollup": "^3.26.3"
+  }
+}
